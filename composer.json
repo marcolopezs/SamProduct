@@ -1,15 +1,19 @@
 {
     "name": "syscontrollers/ecom-products",
-    "type": "library",
-    "description": "Modulo de Productos de Ecommerce",
-    "keywords": ["laravel","ecommerce","products","cms"],
     "license": "MIT",
+    "authors": [
+        {
+            "name": "Marco Lopez",
+            "email": "mlopez@syscontrollers.com"
+        }
+    ],
     "require": {
         "php": ">=7.3"
     },
     "autoload": {
-        "psr-0": {
-            "Ecom": "src"
+        "psr-4": {
+            "Ecom\\Products\\": "src/"
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
